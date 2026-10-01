@@ -1,96 +1,110 @@
-# Restaurant Order Analzsis
-## key questions and answers
-##What were the least and most ordered items? what categories were they in?
+# 🍽️ Restaurant Order Analysis
 
+## 📌 Key Questions & Answers
 
-ANSWER : The least ordered item were chicken tacos in mexican category
-                   The most ordered item were hamburger in american category
+### 1. What were the least and most ordered items? What categories were they in?
 
+* **Least ordered item:** Chicken Tacos — *Mexican*
+* **Most ordered item:** Hamburger — *American*
 
-##What were the top 5 orders that spent the most money?
+---
 
-ANSWER:   
-Order ID      Total Spent
-440             $192.15
-2075            $191.05
-1957            $190.10
-330             $189.70
-2675            $185.10
+### 2. What were the top 5 orders that spent the most money?
 
-##View the details of the highest spend order, what insights can you gather from the results?
+| Rank | Order ID | Total Spent |
+| ---: | -------: | ----------: |
+|    1 |      440 |     $192.15 |
+|    2 |     2075 |     $191.05 |
+|    3 |     1957 |     $190.10 |
+|    4 |      330 |     $189.70 |
+|    5 |     2675 |     $185.10 |
 
+---
 
-ANSWER: The Highest spend order is Asian with 6 items. While the least is American with only 1 item.
+### 3. View the details of the highest-spend order. What insights can you gather?
 
-## What is the date range of the table?
+The **highest-spend order (Order ID 440)** was an **Asian-category order** containing **6 items**.
 
-ANSWER: 01.01.2023 to 31.03.2023
+**Key insight:** The order with the highest total spending was from the Asian category and contained multiple items, indicating a relatively high-value customer order.
 
-##How many orders were made within this order date?
+---
 
-ANSWER: 5370 orders
+### 4. What is the date range of the table?
 
-## How many items were ordered within this date range?
+**01 January 2023 – 31 March 2023**
 
-ANSWER: 12234 items
+---
 
-## Which orders had the most number of items?
+### 5. How many orders were made within this date range?
 
-ANSWER: 
-Order ID       Number of items
-4305             14
-3473             14
-1957             14
-330              14
-440              14
-443              14
+**5,370 orders**
 
-##How many orders had more than 12 items?
+---
 
-ANSWER: 20 orders
+### 6. How many items were ordered within this date range?
 
+**12,234 items**
 
-## Find The number of items on the menu
+---
 
-ANSWER: 32 items in the menu
+### 7. Which orders had the most number of items?
 
-## Find the most expensive menu on the item
+| Order ID | Number of Items |
+| -------: | --------------: |
+|     4305 |              14 |
+|     3473 |              14 |
+|     1957 |              14 |
+|      330 |              14 |
+|      440 |              14 |
+|      443 |              14 |
 
-ANSWER: 
-Menu item id      Item name    category     price
-130            Shrimp scampi    Italian     $19.95
+---
 
-##  What are the least expensive Italian dishes on the menu?
+### 8. How many orders had more than 12 items?
 
-ANSWER: For least expensive Italian item dish :
+**20 orders**
 
-Menu item ID        Item Name        Category       Price
-124                  Spaghetti        Italian       $14.50
+---
 
+### 9. How many items are on the menu?
 
+**32 menu items**
 
-## How many dishes are in each category?
+---
 
+### 10. What is the most expensive menu item?
 
+| Menu Item ID | Item Name     | Category |  Price |
+| -----------: | ------------- | -------- | -----: |
+|          130 | Shrimp Scampi | Italian  | $19.95 |
 
-ANSWER:
+---
 
+### 11. What is the least expensive Italian dish on the menu?
 
-Category      Num of Dishes
-American         6
-Asian            8
-Mexican          9
-Italian          9
+| Menu Item ID | Item Name | Category |  Price |
+| -----------: | --------- | -------- | -----: |
+|          124 | Spaghetti | Italian  | $14.50 |
 
-##  What is the average dish price within each category?
+---
 
-ANSWER: 
-category         Average price
-American           $10.06
-Asian              $13.47
-mexican            $11.80
-Italian            $16.75
+### 12. How many dishes are in each category?
 
+| Category  | Number of Dishes |
+| --------- | ---------------: |
+| American  |                6 |
+| Asian     |                8 |
+| Mexican   |                9 |
+| Italian   |                9 |
+| **Total** |           **32** |
 
+---
 
+### 13. What is the average dish price within each category?
 
+| Category | Average Price |
+| -------- | ------------: |
+| American |        $10.06 |
+| Asian    |        $13.47 |
+| Mexican  |        $11.80 |
+| Italian  |        $16.75 |
